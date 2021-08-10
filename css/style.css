@@ -224,6 +224,29 @@ nav ul li a:hover{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#fourthTable table {
+  
+  border: none;
+  margin: 50px;
+  padding: 50px;
+  /* box-shadow: 9px 9px 7px grey; */
+ 
+  }
+  #fourthTable tr {
+  background: linear-gradient(to right,black,grey);
+  transform: skewX(10deg);
+  }
+  #fourthTable td {
+  color: white;
+  padding: 13px 7px 13px 7px;
+  transform: skewX(-10deg);
+  font-size: 15px;
+  }
+  #fourthTable th {
+  color: #FFE16B;
+  font-size: 17px;
+  transform: skewX(-10deg);
+  }
 
 
 @media only screen and (min-width:768px){
