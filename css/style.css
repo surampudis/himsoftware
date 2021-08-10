@@ -262,6 +262,15 @@ nav ul li a:hover{
   *{
     font-size: 25px;
   } 
+  .coloumn li{
+
+    padding: 1px;
+    font-size: smaller;
+  }
+  li{
+    display: list-item;  color: white; list-style:none;
+    font-size: 8px;
+  }
   #home{
  
     height: 500px;
@@ -327,6 +336,12 @@ nav ul li a:hover{
   padding-left: 5%;
 }
 
+.coloumn p li{
+  
+  font-size: 20px;
+ 
+}
+
 .coloumn p{
   
   font-size: 20px;
@@ -343,6 +358,14 @@ nav ul li a:hover{
   *{
     font-size: 25px;
   } 
+  .coloumn li{
+
+    padding: 2px;
+  }
+  li{
+    display: list-item;  color: white; list-style:none;
+    font-size: 15px;
+  }
   #home{
  
     height: 500px;
@@ -407,6 +430,11 @@ nav ul li a:hover{
   width: 500px;
   padding-left: 5%;
 }
+.coloumn p li{
+  
+  font-size: 20px;
+ 
+}
 
 .coloumn p{
   
@@ -424,6 +452,14 @@ nav ul li a:hover{
   *{
     font-size: 25px;
   } 
+  .coloumn li{
+
+    padding: 18px;
+  }
+  li{
+    display: list-item;  color: white; list-style:none;
+    font-size: 18px;
+  }
   #home{
  
     height: 850px;
@@ -487,6 +523,11 @@ nav ul li a:hover{
   padding-left: 5%;
 }
 
+.coloumn p li{
+  padding-left: 10%;
+  font-size: 20px;
+ 
+}
 .coloumn p{
   padding-left: 10%;
   font-size: 20px;
