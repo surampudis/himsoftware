@@ -31,7 +31,7 @@ ul{
 }
 li{
   display: list-item;  color: white; list-style:none;
-  font-size: 18px;
+  font-size: 10px;
 }
 nav ul li{
   display: inline-block;
@@ -168,7 +168,7 @@ nav ul li a:hover{
   
   display: list-item;
   list-style: square;
-  padding: 20px;
+  padding: 7px;
 }
 .coloumn p{
   padding-top: 20px;
@@ -262,13 +262,14 @@ nav ul li a:hover{
   *{
     font-size: 25px;
   } 
+
   .coloumn li{
 
     padding: 1px;
     font-size: smaller;
   }
   li{
-    display: list-item;  color: white; list-style:none;
+   
     font-size: 8px;
   }
   #home{
