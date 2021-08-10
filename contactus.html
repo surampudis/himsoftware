@@ -1,0 +1,141 @@
+<html>
+
+<head>
+	<title>Contact US</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="js/smtp.js"></script>
+	<script src="js/src.js"></script>
+
+	<style>
+		/* Style inputs with type="text", select elements and textareas */
+		input[type=text],
+		select,
+		textarea {
+			width: 100%;
+			/* Full width */
+			padding: 12px;
+			/* Some padding */
+			border: 1px solid #ccc;
+			/* Gray border */
+			border-radius: 4px;
+			/* Rounded borders */
+			box-sizing: border-box;
+			/* Make sure that padding and width stays in place */
+			margin-top: 6px;
+			/* Add a top margin */
+			margin-bottom: 16px;
+			/* Bottom margin */
+			resize: vertical
+				/* Allow the user to vertically resize the textarea (not horizontally) */
+		}
+
+		/* Style the submit button with a specific background color etc */
+		button {
+			background-color: #04AA6D;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		input[type=cancel] {
+			background-color: #04AA6D;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+
+		/* When moving the mouse over the submit button, add a darker green color */
+		button:hover {
+			background-color: #45a049;
+		}
+
+		input[type=cancel]:hover {
+			background-color: red;
+		}
+
+		/* Add a background color and some padding around the form */
+		.container {
+			border-radius: 0%;
+			background-color: #f2f2f2;
+			padding: 70px 50px;
+		}
+	</style>
+</head>
+
+<body id="contacus">
+
+	<div class="info">
+		<div class="container">
+			<form method="POST">
+
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				
+				<label for="country">Country</label>
+				<select id="country" name="country">
+					<option value="India">India</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<button onclick="sendEmail(); return false">Send</button>
+				<!-- <input type="submit" value="Submit" onclick="sendEmail()"/> -->
+				<input type="cancel" onclick="window.location='index.html'" value="cancel">
+
+			</form>
+		</div>
+
+	</div>
+</body>
+<footer>
+	<div id="bottom">
+		<div class="row">
+			<div class="coloumnbottom">
+
+				<nav>
+					<h2> HEAD OFFICE</h2>
+					<p> Hyderabad, Telangana, Hyderabad</p>
+					<ul>
+						<li><i class="fa fa-headphones"></i> +91(74.168.31.808)/(76.808.626.49) </li>
+						<li><i class="fa fa-headphones"></i> +1(346.306.2303)</li>
+						<li><i class="fa fa-envelope"></i> <a
+								href="mailTo:hireintomnc@gmail.com">hireintomnc@gmail.com</a> </li>
+					</ul>
+
+				</nav>
+			</div>
+			<div class="coloumnbottom">
+				<nav>
+					<ul>
+						<li> <a href="www.linkedin.com/in/hireIntomnc" class="fa fa-linkedin"></a></li>
+						<li><a href="https://www.facebook.com/Hireintomnc-110249768019771" class="fa fa-facebook"></a>
+						</li>
+						<li><a href="https://www.instagram.com/hireintomnc/" class="fa fa-instagram"></a></li>
+						<li>
+							<p class="copyright">© 2021 HireIntoMNC All Rights Reserved</p>
+						</li>
+					</ul>
+
+				</nav>
+
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+</html>
